@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <planA msg='yeet'/>
+    <globaal msg='yeet'/>
     <alleenMinor msg='yeet2'/>
   </div>
 </template>
 
 <script>
-import planA from './components/planA.vue'
+import globaal from './components/globaal.vue'
 import alleenMinor from './components/alleenMinor.vue'
 
 export default {
   name: 'app',
   components: {
-    planA,
+    globaal,
     alleenMinor
   }
 }

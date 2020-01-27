@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="minor">
     <h1>Minor</h1>
     <table class="alleenMinor">
       <thead>

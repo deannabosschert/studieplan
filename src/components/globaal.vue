@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="globaal">
     <h1>Globaal</h1>
     <table class="table1">
       <thead>
@@ -109,7 +109,7 @@
 
 <script>
 export default {
-  name: "planA",
+  name: "globaal",
   props: {
     msg: String
   }
