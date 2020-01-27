@@ -116,8 +116,16 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.globaal{
+  display: flex;
+  flex-direction: column;
+  max-width: 85vw;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
 .table1 {
   border: 1px ridge #ffffff;
   border-collapse: separate;

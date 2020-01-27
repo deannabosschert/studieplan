@@ -95,9 +95,14 @@ export default {
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.minor{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
 .alleenMinor {
   border: 1px ridge #ffffff;
   border-collapse: separate;
