@@ -11,7 +11,8 @@
     </div>
 
     <div v-if="choice === 'incl-alGehaald'">
-      <h2>test</h2>
+      <globaalFully/>
+      <alleenMinorFully/>
     </div>
   </div>
 </template>
@@ -20,6 +21,8 @@
 import switchBetween from "./components/switchBetween.vue"
 import globaal from "./components/globaal.vue"
 import alleenMinor from "./components/alleenMinor.vue"
+import globaalFully from "./components/globaal-fully.vue"
+import alleenMinorFully from "./components/alleenMinor-fully.vue"
 
 export default {
   name: "app",
@@ -31,7 +34,9 @@ export default {
   components: {
     switchBetween,
     globaal,
-    alleenMinor
+    alleenMinor,
+    globaalFully,
+    alleenMinorFully
   }
 }
 </script>

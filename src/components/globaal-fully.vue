@@ -1,6 +1,6 @@
 <template>
   <div class="globaal">
-    <h1>Globaal</h1>
+    <h1>Globaal- geheel</h1>
     <table class="table1">
       <thead>
         <tr>
@@ -8,7 +8,7 @@
           <th>EC</th>
           <th>Blok 4- MWD</th>
           <th>EC</th>
-          <th>Blok 1- Herkansingen</th>
+          <th>Blok 1- Project Web</th>
           <th>EC</th>
           <th>Blok 2- Herkansingen</th>
           <th>EC</th>
@@ -22,7 +22,7 @@
           <td>3</td>
           <td>Real-time Web</td>
           <td>3</td>
-          <td>PW-Vormgeving</td>
+          <td>Vormgeving 2</td>
           <td>3</td>
           <td>DataVis<br /></td>
           <td>3</td>
@@ -32,14 +32,28 @@
           <td>30</td>
         </tr>
         <tr>
+          <td class= "alGehaald">CSS to the Rescue</td>
+          <td class= "alGehaald">3</td>
+          <td class= "alGehaald">Web Design</td>
+          <td class= "alGehaald">3</td>
+          <td>Design Patterns</td>
+          <td>3</td>
+          <td>Research for Data</td>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
           <td>Project 1</td>
           <td>nvt</td>
-          <td>Weekly Nerd</td>
+          <td>Project 3</td>
+          <td>nvt</td>
+          <td>Frontend</td>
           <td>3</td>
-          <td>PW- Design Patterns</td>
-          <td>3</td>
-          <td>Research<br />for Data</td>
-          <td>3</td>
+          <td class= "alGehaald">Artificial Intelligence</td>
+          <td class= "alGehaald">3</td>
           <td></td>
           <td></td>
           <td></td>
@@ -48,26 +62,12 @@
         <tr>
           <td>Performance Matters</td>
           <td>3</td>
-          <td>Project 3</td>
-          <td>nvt</td>
-          <td>PW- Frontend</td>
+          <td>Weekly Nerd</td>
           <td>3</td>
-          <td>Frontend Data</td>
+          <td>Project Web</td>
+          <td>5</td>
+          <td>Frontend Applications</td>
           <td>3</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Project 2</td>
-          <td>nvt</td>
-          <td>Meesterproef</td>
-          <td>9</td>
-          <td>PW- Project</td>
-          <td>5</td>
-          <td>Project Tech</td>
-          <td>5</td>
           <td></td>
           <td></td>
           <td></td>
@@ -76,26 +76,82 @@
         <tr>
           <td>Browser<br />Technologies</td>
           <td>3</td>
+          <td>Meesterproef</td>
+          <td>9</td>
           <td></td>
           <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>Functional Programming</td>
+          <td>3</td>
           <td></td>
           <td></td>
           <td></td>
           <td></td>
         </tr>
         <tr>
-          <td><b>TOTAAL EC (112)</b></td>
-          <td><b>9</b></td>
+          <td>Project 2</td>
+          <td>3</td>
           <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Frontend Data</td>
+          <td>3</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class= "alGehaald">Dataweek</td>
+          <td class= "alGehaald">2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class= "alGehaald">ID Pointer project</td>
+          <td class= "alGehaald">9</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Project Tech</td>
+          <td>5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><b>TOTAAL EC (141)</b></td>
           <td><b>15</b></td>
           <td></td>
-          <td><b>14</b></td>
+          <td><b>18</b></td>
           <td></td>
           <td><b>14</b></td>
+          <td></td>
+          <td><b>34</b></td>
           <td></td>
           <td><b>30</b></td>
           <td></td>
@@ -109,7 +165,7 @@
 
 <script>
 export default {
-  name: "globaal",
+  name: "globaalFully",
   props: {
     msg: String
   }
@@ -124,6 +180,10 @@ export default {
   align-self: center;
   align-items: center;
   align-content: center;
+}
+
+.alGehaald{
+  text-decoration: line-through;
 }
 
 .table1 {
