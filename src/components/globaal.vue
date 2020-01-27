@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Plan A</h1>
+    <h1>Globaal</h1>
     <table class="table1">
       <thead>
         <tr>
@@ -91,7 +91,7 @@
           <td><b>TOTAAL EC</b></td>
           <td><b>9</b></td>
           <td></td>
-          <td><b>12</b></td>
+          <td><b>15</b></td>
           <td></td>
           <td><b>14</b></td>
           <td></td>
