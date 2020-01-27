@@ -18,7 +18,7 @@
         <tr>
           <td>1-2-3</td>
           <td>CSS2TR</td>
-          <td>3</td>
+          <td></td>
           <td>0</td>
         </tr>
         <tr>
@@ -54,7 +54,7 @@
         <tr>
           <td>9-10-11</td>
           <td>Web Design</td>
-          <td>3</td>
+          <td></td>
           <td>0</td>
         </tr>
         <tr>
@@ -70,9 +70,15 @@
           <td>1</td>
         </tr>
         <tr>
+          <td>overig</td>
+          <td>Weekly Nerd</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+        <tr>
           <td>TOTAAL</td>
           <td></td>
-          <td>27</td>
+          <td>24</td>
           <td></td>
         </tr>
       </thead>
